@@ -6,8 +6,8 @@ class Terricola(Guerrero):
     __shots_done = [0] * (Guerrero.get_maxTarget() + 1)
 
     def __init__(self, name):
-    Guerrero.__init__(self, name)
-    Terricola.__totalTerricolasAlive += 1
+        Guerrero.__init__(self, name)
+        Terricola.__totalTerricolasAlive += 1
 # Overrides the method shoot from the parent class!
     def shoot(self):
 
